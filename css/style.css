@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital@0;1&display=swap");
+
+body {
+  font: normal normal 13px/16px Nunito, sans-serif;
+  background: #dfdfdf;
+}
+
+h1 {
+  color: #36741f;
+}
+
+.container {
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+  margin-top: 40px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+form {
+  display: inline-block;
+}
+
+input {
+  padding: 4px 15px 4px 5px;
+}
+
+#button {
+  display: inline-block;
+  background-color: #36741f;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2px;
+  padding: 5px 15px;
+}
+
+#button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  padding: 5px;
+  color: #000;
+}
+
+li:hover {
+  cursor: pointer;
+}
+
+ol li:nth-child(even) {
+  background: #dfdfdf;
+}
+
+.strike {
+  text-decoration: line-through;
+}
+
+.delete {
+  display: none;
+}
+
+li > button {
+  background: none;
+  border: none;
+  float: right;
+  color: #7b2f2f;
+  font-weight: 800;
+}
+
+li > button:hover {
+  cursor: pointer;
+}
